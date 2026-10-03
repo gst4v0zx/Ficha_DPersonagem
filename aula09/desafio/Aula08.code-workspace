@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../Aula08"
+		},
+		{
+			"path": "../../../../OneDrive/Área de Trabalho"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Aula08"
+	}
+}

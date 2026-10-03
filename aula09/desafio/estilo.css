@@ -1,0 +1,9 @@
+.box{
+    width: 100vw;
+    height: 100vw;
+    text-align: center;
+    padding-top: 25px;
+    background-color: orange;
+    position: relative;
+    animation:  animacao 10s 2s alternate;
+}
