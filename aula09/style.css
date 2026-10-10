@@ -8,38 +8,135 @@
 }
 
 body {
-    background-color: rgb(103, 103, 103);
-    font-size: 15px;
+    background-color: rgb(251, 65, 65);
+    font-size: 20px;
 }
 
-.top{
+.topo {
     width: 100vw;
-    justify-content: center;
     display: flex;
+    justify-content: center;
 }
 
-.containertop{
-   background-color: rgb(0, 102, 255);
+.conteiner-topo{
+    background-color: rgb(179, 42, 42);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
-    width: 900;
-    height: 150;
+    width: 900px;
+    height: 150px;
 }
 
-.containertop > div {
+.conteiner-topo>div {
     padding: 10px;
 }
 
-.containertop > div p{
+.conteiner-topo>div p{
     font-size: 20px;
     text-align: center;
 }
 
-.containertop > div input{
-    border-radius: 5px;
-    padding-left: 10%;
+.conteiner-topo>div input{
     height: 30px;
-    width: 200;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.conteudoprincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.sessaoconteudoprincipal{
+    width: 900px;
+    height: 600px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1fr;
+    padding: 50px 0px;
+}
+
+.containermodificadores{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+.containermodificadores>div p{
+    text-align: center;
+    font-weight: 900;
+}
+
+.containermodificadores>div input{
+    border-radius: 0.5px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.vdvimg{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.vdv{
+    width: ;
+    height: ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding-left:  50px;
+}
+
+.vdv>div p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.vdv>div input{
+    border-radius: 5px;
+    height: 30px;
+    width: 95%;
+    padding: 5px;
+}
+
+.containerimg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerimg img{
+    width: 80%;
+    height: 100%;
+    padding-left: 50px;
+}
+
+.containerbiografia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.containerbiografia h2{
+    padding-bottom: 15px;
+}
+
+.containerbiografia textarea{
+    border-radius: 10px;
+    resize: none;
+    padding: 5px 10px;
+    font-size: 15px;
 }

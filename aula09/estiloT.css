@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.cartao{
+    height: 250px;
+    width: 600px;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(143, 190, 255);
+}
+
+.nome {
+    color: rgb(255, 245, 232);
+    padding-bottom: 10px;
+}
+
+.descricao {
+    color: rgb(0, 0, 0);
+    padding-bottom: 10px;
+}
+
+.identificacao {
+    color: rgb(255, 245, 232);
+    padding-bottom: 10px;
+}
