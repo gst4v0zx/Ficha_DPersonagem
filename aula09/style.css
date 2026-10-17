@@ -88,8 +88,8 @@ body {
 }
 
 .vdv{
-    width: ;
-    height: ;
+    width: 100%;
+    height: 150px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
@@ -130,6 +130,10 @@ body {
 
 }
 
+.containerbiografia>div input{
+    padding-left: 10px;
+}
+
 .containerbiografia h2{
     padding-bottom: 15px;
 }
@@ -139,4 +143,57 @@ body {
     resize: none;
     padding: 5px 10px;
     font-size: 15px;
+    padding-left: 10px;
 }
+
+.conteudosecundario{
+    width: 900px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    background-color: rgb(252, 255, 255);
+}
+
+.conteudosecundario> div>h2{
+    padding-bottom: 15px;
+}
+
+.conteudosecundario> div>textarea{
+    width: 80%;
+    border-radius: 10px;
+    resize: none;
+    padding-left: 10px;
+}
+
+.containerequipamentos{
+    width: 100%;
+    text-align: center;
+}
+
+.containercaracteristicas{
+    width: 100%;
+    text-align: center;
+}
+
+
+footer {
+    width: 100vw;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.containerrodape {
+    width: 900px;
+    background-color: gray;
+    text-align: center;
+}
+
+.containerrodape a{
+    list-style: none;
+    font-size: 15px;
+    font-style: italic;
+    padding: 10px;
+}
+
